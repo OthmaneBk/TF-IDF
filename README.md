@@ -7,20 +7,20 @@
 - IDF (Inverse Document Frequency): Mesure l'importance du terme dans l'ensemble de la collection.
 
 ### Exemple d'application de TF-IDF
-1- "Le chat mange une souris"
-2- "Le chien court après le chat"
-3- "Une souris se cache du chat et du chien"
+- 1- "Le chat mange une souris"
+- 2- "Le chien court après le chat"
+- 3- "Une souris se cache du chat et du chien"
 
-# Étape 1: Elimincation des mots_vides: {le, une, après, se, du, et}
+Étape 1: Elimincation des mots_vides: {le, une, après, se, du, et}
 
-# Étape 2: Calculer TF (Term Frequency) pour chaque mot dans la phrase 1
+Étape 2: Calculer TF (Term Frequency) pour chaque mot dans la phrase 1
 
 Total de mots dans la phrase 1: 3 (apres suppression des mots_vides)
 - "chat": 1/3 = 0.333
 - "mange": 1/3 = 0.333
 - "souris": 1/3 = 0.333
 
-# Étape 3: Calculer IDF (Inverse Document Frequency) pour chaque mot
+Étape 3: Calculer IDF (Inverse Document Frequency) pour chaque mot
 
 - # Documents totaux: 3
 - "chat": apparaît dans 3 documents → IDF = log(3/3) = 0
