@@ -12,10 +12,13 @@
 - 3- "Une souris se cache du chat et du chien"
 
 ### Étape 1: Elimincation des mots_vides: {le, une, après, se, du, et}
+- 1- "chat mange souris"
+- 2- "chien court chat"
+- 3- "souris cache chat chien"
 
 ### Étape 2: Calculer TF (Term Frequency) pour chaque mot dans la phrase 1
 
-Total de mots dans la phrase 1: 3 (apres suppression des mots_vides)
+Total de mots dans la phrase 1 est 3 (après la suppression des mots_vides)
 - "chat": 1/3 = 0.333
 - "mange": 1/3 = 0.333
 - "souris": 1/3 = 0.333
