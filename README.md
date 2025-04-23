@@ -11,21 +11,21 @@
 - 2- "Le chien court après le chat"
 - 3- "Une souris se cache du chat et du chien"
 
-- ***Étape 1: Elimincation des mots_vides: {le, une, après, se, du, et}***
+### Étape 1: Elimincation des mots_vides: {le, une, après, se, du, et}
 
-- ***Étape 2: Calculer TF (Term Frequency) pour chaque mot dans la phrase 1***
+### Étape 2: Calculer TF (Term Frequency) pour chaque mot dans la phrase 1
 
 Total de mots dans la phrase 1: 3 (apres suppression des mots_vides)
 - "chat": 1/3 = 0.333
 - "mange": 1/3 = 0.333
 - "souris": 1/3 = 0.333
 
-- ***Étape 3: Calculer IDF (Inverse Document Frequency) pour chaque mot***
+### Étape 3: Calculer IDF (Inverse Document Frequency) pour chaque mot
 
 - Documents totaux: 3
 - "chat": apparaît dans 3 documents → IDF = log(3/3) = 0
 - "mange": apparaît dans 1 document → IDF = log(3/1) ≈ 1.099
 - "souris": apparaît dans 2 documents → IDF = log(3/2) ≈ 0.405
 
-- ***Le résultat***
+### Le résultat
 - Dans cet exemple, le mot "mange" a le score TF-IDF le plus élevé (0.366) car il n'apparaît que dans cette phrase, ce qui confirme qu'il est le terme le plus distinctif de cette phrase par rapport au corpus.
